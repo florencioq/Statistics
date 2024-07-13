@@ -2,3 +2,5 @@ wheel
 rdatasets
 matplotlib
 ipykernel
+seaborn
+statsmodels
