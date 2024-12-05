@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:process id="Process_1" isExecutable="false">
+    <bpmn:task id="Activity_1r5eetj" name="Sistema de Registro de Ocorrências" />
+    <bpmn:task id="Activity_08dc0g8" name="Sistema de Atendimento e Despacho" />
+    <bpmn:task id="Activity_0rxlylq" name="Sistema Analítico Espacial" />
+    <bpmn:group id="Group_166chnw" categoryValueRef="CategoryValue_0g0im21" />
+  </bpmn:process>
+  <bpmn:category id="Category_0skz4z3">
+    <bpmn:categoryValue id="CategoryValue_0g0im21" value="SEGURANÇA PÚBLICA" />
+  </bpmn:category>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1">
+      <bpmndi:BPMNShape id="Activity_08dc0g8_di" bpmnElement="Activity_08dc0g8">
+        <dc:Bounds x="570" y="260" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0rxlylq_di" bpmnElement="Activity_0rxlylq">
+        <dc:Bounds x="780" y="260" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1r5eetj_di" bpmnElement="Activity_1r5eetj">
+        <dc:Bounds x="370" y="260" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Group_166chnw_di" bpmnElement="Group_166chnw">
+        <dc:Bounds x="310" y="175" width="640" height="250" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="595" y="182" width="70" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
